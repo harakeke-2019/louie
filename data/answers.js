@@ -29,7 +29,7 @@ answers = [
   },
   {
     id: 8,
-    answer: 'Most likely'
+    answer: 'Hip hip array!'
   },
   {
     id: 9,
@@ -37,7 +37,7 @@ answers = [
   },
   {
     id: 10,
-    answer: 'Yes'
+    answer: '!false'
   },
   {
     id: 11,
@@ -45,11 +45,11 @@ answers = [
   },
   {
     id: 12,
-    answer: 'Reply hazy try again'
+    answer: 'ASCII stupid question, get a stupid ANSI!'
   },
   {
     id: 13,
-    answer: 'Ask again later'
+    answer: 'Meditate and ask again later'
   },
   {
     id: 14,
