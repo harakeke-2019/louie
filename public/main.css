@@ -1,10 +1,6 @@
-.inputText {
- position: absolute;
- left: 50%;
- top: 50%
- 
-},
-
-.submit {
-
+body {
+  background-color: rgb(105, 194, 221)
 }
+
+
+
