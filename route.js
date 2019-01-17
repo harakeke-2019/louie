@@ -3,10 +3,10 @@ const route = express.Router()
 
 module.exports = route
 
-route.get('/ED8BallHome', (req, res) => {
-  res.send('Yeah we get it!!!')
+route.get('/ed8ball', (req, res) => {
+  res.send('Home route is working')
 })
 
-route.get('/AnswerPage', (req, res) => {
+route.get('/answers', (req, res) => {
   res.send('This is the answer page')
 })
