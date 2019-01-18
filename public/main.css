@@ -2,5 +2,56 @@ body {
   background-color: rgb(105, 194, 221)
 }
 
+.header {
+  height: 65px;
+  background-color: white;
+}
 
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+.question {
+  height: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: white;
+}
+
+.imputText {
+  box-align: left;
+  color: blue;
+  background-color: pink;
+}
+
+.button {
+  box-align: right;
+  background-color: black;
+  color: white;
+  border-radius: 20px
+}
+
+.answer {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+}
+
+.overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
