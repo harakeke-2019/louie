@@ -1,7 +1,8 @@
 const answers = require("./data/answers.json")
 const path = require("path")
 const fs = require("fs")
-module.exports = getRandomAnswer
+
+module.export = getRandomAnswer
 
 function getRandomAnswer (callback) {
 
@@ -33,3 +34,4 @@ function getAnswer(ans){
 console.log(getRandomAnswer(getAnswer))
 //console.log(getRandomAnswer(logData))
 //console.log(getRandomAnswer())
+
