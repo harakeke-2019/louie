@@ -7,8 +7,7 @@ module.export = getRandomAnswer
 function getRandomAnswer (callback) {
 
         const filePath = path.join(__dirname, 'data/answers.json')
-        fs.readFile(filePath, 'utf-8', (err, data) => {
-
+        fs.readFile(filePath, 'utf8', (err, data) => {
             if (err) throw err
             const randomAnswer = JSON.parse(data)
             callback(randomAnswer)         
@@ -19,17 +18,20 @@ function getRandomAnswer (callback) {
 }
 
 function getAnswer(ans){
-    console.log (typeof ans.randomAns)
-    let randomId = Math.floor(Math.random() * (21))
+    //console.log (ans.randomAns)
+    let answerO = ans.randomAns
+    let randomId = parseInt(Math.random() * 3)
     // console.log(randomId)
 
     // console.log(id)
     // use find to find ans.id and = randomId
-    let outPutAnswer = ans.find(element => element.id == randomId) 
-   //console.log(outPutAnswer)
+   let outPutAnswer = answerO.find(element => 
+    element.id == randomId) 
+    console.log(outPutAnswer.answer)
+    return outPutAnswer.answer
 }
 
-getRandomAnswer(getAnswer)
+console.log(getRandomAnswer(getAnswer))
 //console.log(getRandomAnswer(logData))
 //console.log(getRandomAnswer())
 
